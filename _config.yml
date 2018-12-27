@@ -1,24 +1,24 @@
 # Site settings
-title: Katie Peterson
-email:
+title: KP Proofs
+email: kpproofs@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Katie Peterson, Research Associate, University of Cambridge Department of Clinical Neurosciences. CV and blog.
+  Proofreading and copy-editing
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner: Katie Peterson
-email: kap45@medschl.cam.ac.uk
+owner: KP Proofs
+email: kpproofs@gmail.com
 facebook_username:
-twitter_username: kapeterson14
+twitter_username: KPProofs
 github_username:
-linkedin_username: katie-peterson-097451165
+linkedin_username: 
 address:
   - line:
   - line:
   # Feel free to add more lines here 
 telephone:
-copyright: Katie Peterson
+copyright: KP Proofs
 
 # API settings
 google_api_key:
