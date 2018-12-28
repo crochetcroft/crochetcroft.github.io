@@ -166,6 +166,15 @@ hr.small {
     -o-background-size: cover;
 }
 
+/* Text block banner */
+
+.text-block {
+  position: relative;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* Services */
 
 .services-icon {
