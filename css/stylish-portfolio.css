@@ -327,10 +327,11 @@ section.gallery {
 
 .cv {
     display: table;
+    padding-top: 50px;
     width: 100%;
     height: 400px;
     color: #fff;
-    background-color: FireBrick;
+    background-color: RosyBrown;
 }
 
 /* Footer */
