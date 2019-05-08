@@ -339,7 +339,7 @@ section.gallery {
 .largefooter {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url(../img/desk.jpg) no-repeat center center scroll;
+    background-color: RosyBrown;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
