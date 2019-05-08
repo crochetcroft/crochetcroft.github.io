@@ -188,7 +188,7 @@ hr.small {
     margin-bottom: 30px;
 }
 
-.services {
+.projectsprev {
     padding: 50px 0;
 }
 
@@ -323,9 +323,9 @@ section.gallery {
     background-color: rgba(255, 255, 255, 0.6)
 }
 
-/* CV */
+/* Blog Preview */
 
-.cv {
+.blogprev {
     display: table;
     padding-top: 50px;
     width: 100%;
