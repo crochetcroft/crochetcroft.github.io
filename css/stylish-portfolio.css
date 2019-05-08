@@ -229,6 +229,28 @@ hr.small {
 
 /* Blog /
 
+/* Blog Preview /
+
+.previewcards {
+  padding-top: 50px;
+  min-height: 300px;
+}
+
+.previewcards .excerpt {
+  text-overflow: clip;
+}
+
+.card-light {
+  border-radius: 0;
+  color: #333;
+  height: 100%;
+  margin: 15px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
+  overflow: hidden;
+}
+
 /* Blogposts */
 
 .bloghead {
