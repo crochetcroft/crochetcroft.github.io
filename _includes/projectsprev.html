@@ -3,21 +3,59 @@
     <div class="row text-center">
       <h1>Featured Projects</h1>
       <hr="small">
-      <!-- Cards of blog posts -->
-      <div class="row previewcards is-flex">
-        {% for post in site.projects limit:4 %}
-        <div class="col-lg-3 col-sm-6 col-xs-12">
-          <div class="card-light">
-            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-            <p class="post-date">{{ post.date | date: '%b %-d, %Y' }}</p>
-            <p class="excerpt text-muted">{{ post.content | strip_html | truncatewords: 40 }}</p>
+     <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="research-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-eye-slash fa-stack-1x text-primary"></i>
+            </span>
+              <a href="https://github.com/janfreyberg/binoc-rivalry-complexity-comparison" target="_blank" class="btn btn-light">
+                <i class="fa fa-github fa-fw-2x"></i>
+                Try it
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="research-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-area-chart fa-stack-1x text-primary"></i>
+              </span>
+              <a href="https://github.com/janfreyberg/binoc-rivalry-trials" target="_blank" class="btn btn-light">
+                <i class="fa fa-github fa-fw-2x"></i>
+                Try it
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="research-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-ellipsis-v fa-stack-1x text-primary"></i>
+              </span>
+              <a href="https://github.com/janfreyberg/crowding" target="_blank" class="btn btn-light">
+                <i class="fa fa-github fa-fw-2x"></i>
+                Try it
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="research-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-group fa-stack-1x text-primary"></i>
+              </span>
+              <a href="https://github.com/janfreyberg/face-perception-ssvep" target="_blank" class="btn btn-light">
+                <i class="fa fa-github fa-fw-2x"></i>
+                Try it
+              </a>
+            </div>
           </div>
         </div>
-        {% endfor %}
+        <!-- /.row (nested) -->
       </div>
-      <div class="row text-center">
-        <a href="/projects/" class="btn btn-dark">More</a>
-      </div>
+      <!-- /.col-lg-10 -->
     </div>
     <!-- /.row -->
   </div>
