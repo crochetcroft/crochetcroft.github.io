@@ -2,7 +2,7 @@
 layout: post
 title: "Ed's Alien Bunny"
 date: 2019-05-08
-img: ="../img/eds1.jpeg"
+img: ="../../img/eds1.jpeg"
 ---
 <div style="text-align: center"><img src="../../../img/eds1.jpeg" width="300"></div>
 <br>
