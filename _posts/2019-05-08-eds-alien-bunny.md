@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Edward's Imaginarium Alien Bunny"
+title: "Alien Bunny"
 date: 2019-05-08
 img: ="../img/eds1.jpeg"
 ---
