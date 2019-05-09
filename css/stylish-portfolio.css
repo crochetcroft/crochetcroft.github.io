@@ -281,6 +281,11 @@ hr.small {
   border-top-color: #515151;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .blogcontent {
     padding: 50px 0;
 }
