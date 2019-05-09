@@ -4,7 +4,7 @@ title: "Test project"
 date: 2019-05-08
 img: "../../img/eds1.jpeg"
 ---
-div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;">
   <img src="../../../img/eds1.jpeg" width="300">
 </div>
 
