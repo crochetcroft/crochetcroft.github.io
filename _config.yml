@@ -1,5 +1,5 @@
 # Site settings
-title: Crochet Croft
+title: Peeriegurumi
 email: crochetpartyblog@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Crochet projects and guides
@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner: Crochet Party
+owner: Peeriegurumi
 email: crochetpartyblog@gmail.com
 facebook_username:
 twitter_username: CrochetParty
@@ -19,7 +19,7 @@ address:
   - line:
   # Feel free to add more lines here 
 telephone:
-copyright: Crochet Croft
+copyright: Peeriegurumi
 
 # API settings
 google_api_key:
