@@ -1,6 +1,6 @@
 # Site settings
 title: Peeriegurumi
-email: crochetpartyblog@gmail.com
+email: peeriegurumi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Crochet projects and guides
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site
 owner: Peeriegurumi
 email: peeriegurumi@gmail.com
 facebook_username:
-twitter_username: CrochetParty
+twitter_username:
 github_username:
 instagram_username: peeriegurumi
 linkedin_username: 
