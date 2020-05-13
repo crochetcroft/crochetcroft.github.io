@@ -40,6 +40,11 @@ body {
     font-weight: 600;
 }
 
+img {
+  width: 80%;
+  height: auto;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
