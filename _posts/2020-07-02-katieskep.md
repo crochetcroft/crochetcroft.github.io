@@ -12,7 +12,7 @@ This was my first attempt at fair isle knitting and it really was not as bad as 
 I used the Katie's Kep pattern - designed by Wilma Malcolmson for this year's Shetland Wool Week festival (due to be held in September 2020 but cancelled due to COVID-19, of course). The pattern can be downloaded for free <a href="https://www.shetlandwoolweek.com/free-knitting-pattern/" target="_blank">here</a>. The pattern is easy to follow if you are a beginner, and there is even a Katie's Kep <a href="https://www.facebook.com/groups/swwkal/" target="_blank">knit-along Facebook group</a> if you get stuck (I only discovered the group after I finished knitting my hat!)
 <br>
 <br>
-I used Jamieson's & Smith 2ply jumper weight yarn, as per the pattern instructions (yarn purchased from <a href="https://www.shetlandwoolbrokers.co.uk/" target="_blank">the Shetland Woolbrokers website</a>).
+I used Jamieson & Smith 2ply jumper weight yarn, as per the pattern instructions (yarn purchased from <a href="https://www.shetlandwoolbrokers.co.uk/" target="_blank">the Shetland Woolbrokers website</a>).
 <div style="text-align: center"><img src="../../../img/katieskep2.jpg" class="responsive"></div>
 <br>
 I love how the hat turned out and think the colours look great!
