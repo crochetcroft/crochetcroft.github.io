@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Katie's Kep - fair isle hat"
-date: 2020-03-14
+date: 2020-07-02
 img: "../../img/katieskep1.jpg"
 ---
 <div style="text-align: center"><img src="../../../img/katieskep1.jpg" width="300"></div>
