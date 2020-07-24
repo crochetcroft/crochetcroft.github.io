@@ -159,6 +159,21 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
+/* Three image containers (use 33.33% for three, and 25% for four, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 /* Header */
 
 .header {
