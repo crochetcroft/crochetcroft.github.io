@@ -1,0 +1,25 @@
+<section id="projects" class="blogprev">
+  <div class="container">
+    <div class="row text-center">
+      <h1 style="color:#4A235A"><strong>FEATURED PROJECTS</strong></h1>
+      <p>Welcome! I am originally from the Shetland Islands and currently living in Cambridge, UK.</p>
+      <p>I am new to crochet and fair isle knitting so only have a few completed projects so far (shown below). I will be uploading more in due course!</p>
+      <hr="small">
+      <!-- Cards of blog posts -->
+      <div class="row previewcards is-flex">
+        {% for post in site.categories.projects limit:4 %}
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <div class="card-light">
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                <p class="post-date">{{ post.date | date: '%b %-d, %Y' }}</p>
+                <img src={{ post.img }} width="150">
+              </div>
+            </div>
+        {% endfor %}
+      </div>
+      <br>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
