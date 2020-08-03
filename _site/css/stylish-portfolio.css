@@ -1,0 +1,421 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+    background-color: White;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.text-vertical-center h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 3.75em;
+    font-weight: 600;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Three image containers (use 33.33% for three, and 25% for four, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bressay2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Text block banner */
+
+.text-block {
+  position: relative;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Services */
+
+
+.research-icon {
+    margin-bottom: 30px;
+}
+
+.services-icon {
+    margin-bottom: 30px;
+}
+
+.projectsprev {
+    padding: 50px 0;
+}
+
+/* Research summary pages */
+
+.mlsehead {
+    display: table;
+    width: 100%;
+    height: 200px;
+    background-color: AliceBlue;
+}
+
+.mlseinfo {
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.mlse-logo {
+    margin: 0 auto;
+}
+
+.mlse-logo:hover {
+    opacity: 0.8;
+}
+
+.nphhead {
+    display: table;
+    width: 100%;
+    height: 200px;
+    background-color: AliceBlue;
+}
+
+.nphinfo {
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+
+/* Blog */
+
+/* Blog Preview */
+
+.previewcards {
+  padding-top: 50px;
+  min-height: 300px;
+}
+
+.previewcards .excerpt {
+  text-overflow: clip;
+}
+
+.card-light {
+  border-radius: 0;
+  color: #333;
+  height: 100%;
+  margin: 15px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
+  overflow: hidden;
+}
+
+/* Blogposts */
+
+.bloghead {
+  display: table;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 40%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.shiny-embed {
+  width: 100%;
+  min-height: 650px;
+  border: none;
+}
+
+.bloghead hr {
+  border-top-color: #515151;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.blogcontent {
+    padding: 50px 0;
+}
+
+.blogcontent ol {
+  padding-left: 5px;
+}
+
+.blogcontent p, .bloglist p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bloglist .item {
+  padding: 50px 0px;
+}
+
+.bloglist .item h3 {
+  text-align: left;
+  color: #000;
+}
+
+.bloglist .item a {
+  color: inherit;
+}
+
+/*.bloglist .item .tags a, .bloglist .item .date, .bloglist .item .excerpt {
+  color: #AAA;
+}*/
+
+/* Index of tags */
+
+.taglist {
+  height: 50%;
+  text-align: center;
+  padding: 50px;
+  color: #515151;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.taglist a {
+  color: inherit;
+}
+
+/* Gallery page */
+section.gallery {
+  min-height: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.dummy {
+    margin-top: 100%;
+}
+.tile {
+    position: absolute;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 10%;
+    left: 15px;
+    right: 15px;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+/* Blog Preview */
+
+.blogprev {
+    display: table;
+    padding-top: 50px;
+    width: 100%;
+    height: 400px;
+    color: #17202A;
+    background-color: Lavender;
+}
+
+.blogpostsprev {
+    display: table;
+    padding-top: 50px;
+    width: 100%;
+    height: 400px;
+    color: #17202A;
+    background-color: DarkSlateBlue;
+}
+
+/* Footer */
+
+.largefooter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(../img/woolwall.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.smallfooter {
+    padding: 50px;
+    background: url(../img/DeathtoStock_Wired3.jpg) no-repeat center center scroll;
+    background-size: 100%;
+}
+
+.footercard {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.footercard a, .header a{
+    color: ~333333;
+}
+
+footer a:hover, .header a:hover {
+    color: #23527C;
+}
